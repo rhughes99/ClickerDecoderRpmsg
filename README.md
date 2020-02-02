@@ -13,3 +13,9 @@ P9_31 = IR input
 P9_29 = LED
 P9_28 = a toggled test point
 
+To Run:
+source setup.sh							- to set some parameters and configure I/O pins
+gcc ClickDecController -o Controller	- to compile Controller
+make									- to compile PRU code and install and start
+./Controller							- to start Controller
+
