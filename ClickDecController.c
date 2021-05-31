@@ -48,8 +48,8 @@ int main (void)
 			{
 				switch (theCmd)
 				{
-					case 19712843:								// 0x12CCB4B
-					case 11324235:								// 0x0ACCB4B
+					case 19712843:							// 0x12CCB4B
+					case 11324235:							// 0x0ACCB4B
 						printf("--- VCR POWER ---\n");
 						break;
 
@@ -58,18 +58,18 @@ int main (void)
 						printf("--- TV POWER ---\n");
 						break;
 
-					case 11326803:
-					case 19715411:
+					case 11326803:							// 0x0ACD553
+					case 19715411:							// 0x12CD553
 						printf("VCR/TV\n");
 						break;
 
-					case 11326285:
-					case 19714893:
+					case 11326285:							// 0x0ACD34D
+					case 19714893:							// 0x12CD34D
 						printf("VCR: EJECT\n");
 						break;
 
-					case 11326669:
-					case 19715277:
+					case 11326669:							// 0x0ACD4CD
+					case 19715277:							// 0x12CD4CD
 						printf("VCR: PLAY\n");
 						break;
 
